@@ -1,9 +1,77 @@
-# Getting Started with Create React App
+<!-- TABLE OF CONTENTS -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+- [💻 Getting Started](#getting-started)
+	- [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Available Scripts](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
+# 📖 React Calculator Application <a name="about-project"></a>
+
+> 🚧 Welcome to the React Calculator Application! This web-based calculator is built using React, providing a convenient and user-friendly way to perform various mathematical calculations. 🚧
+## 🛠 Built With <a name="built-with"></a>
+### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JAVASCRIPT</a></li>
+    <li><a href="https://legacy.reactjs.org/">REACT</a></li>
+    <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">BOOTSTRAP</a></li>
+    <li><a href="https://webpack.js.org/guides/getting-started/">WEBPACK</a></li>
+    <li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">GITFLOW</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">GITHUB ACTIONS & LINTERS</a></li>
+  </ul>
+</details>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Key Features -->
+
+<!-- LIVE DEMO -->
+
+
+<!-- GETTING STARTED -->
+## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+You have to use this tools in your local machine.
+
+- NPM
+- NODEJS
+- GIT & GITHUB
+- Any Code Editor (VS Code... etc)
+
+### Setup
+
+Clone this repository to your desired folder:
+Example commands:
+
+```sh
+  cd my-folder
+  git init # if not initialized git on your folder
+  git clone git@github.com:Titus-Kiplagat/calculator.git
+  cd calculator
+  npm install # to install dependencies
+```
+
+
+### Available Scripts
 In the project directory, you can run:
 
 ### `npm start`
@@ -39,32 +107,97 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Run tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run tests, run the following command on terminal:
+Example commands:
 
-### Code Splitting
+Test for webhint errors
+```sh
+	npx hint .
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Test for stylelint errors
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
 
-### Analyzing the Bundle Size
+Test for eslint errors
+```sh
+	npx eslint .
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Trigger the build process of the project
+```sh
+	npm run build
+```
 
-### Making a Progressive Web App
+Start the project 
+```sh
+	npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- AUTHORS -->
 
-### Advanced Configuration
+## 👥 Authors <a name="authors"></a>
+👤 **Titus Kiplagat**
+- GitHub: [Titus Kiplagat](https://github.com/Titus-Kiplagat)
+- LinkedIn: [Titus Kiplagat](https://www.linkedin.com/in/titus-kiplagat-kemboi-9a8848262/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- FUTURE FEATURES -->
 
-### `npm run build` fails to minify
+## 🔭 Future Features <a name="future-features"></a>
+- Perform basic arithmetic operations (addition, subtraction, multiplication, division).
+- Handle complex calculations with ease.
+- Clear and intuitive user interface.
+- Responsive design for both desktop and mobile devices.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+Your support is crucial to the success of this project! There are ways you can contribute and show your support:
+
+  - Provide Feedback: If you've tried out the project or have any suggestions for improvement, we would love to hear from you. Your feedback is invaluable in shaping the future direction of the project.
+
+  - Give a ⭐️ if you like this project!
+
+
+Remember, your support matters! Whether it's spreading the word, providing feedback, reporting issues, contributing code, or making a donation, every action makes a difference. Together, we can make this project even better.
+
+Thank you for your support and for being a part of this journey!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to give credit to list of contributors:
+
+- Microverse Team
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
