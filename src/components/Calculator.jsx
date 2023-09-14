@@ -1,6 +1,6 @@
 import Button from './Button';
 
-const Calculator = () => {
+function Calculator() {
   const buttons = [
     { label: 'AC', bgColor: 'bg-gray-300' },
     { label: '+/-', bgColor: 'bg-gray-300' },
@@ -43,6 +43,6 @@ const Calculator = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Calculator;
