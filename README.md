@@ -45,6 +45,7 @@
 
 - Responsive design for both desktop and mobile devices.
 - Clear and intuitive user interface.
+- Perform basic arithmetic operations (addition, subtraction, multiplication, division).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
@@ -157,7 +158,6 @@ Start the project
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- Perform basic arithmetic operations (addition, subtraction, multiplication, division).
 - Handle complex calculations with ease.
 
 
