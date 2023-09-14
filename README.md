@@ -5,6 +5,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
 	- [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -40,7 +41,12 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Key Features -->
+### Key Features <a name="key-features"></a>
 
+- Responsive design for both desktop and mobile devices.
+- Clear and intuitive user interface.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
 
 
@@ -153,8 +159,7 @@ Start the project
 ## 🔭 Future Features <a name="future-features"></a>
 - Perform basic arithmetic operations (addition, subtraction, multiplication, division).
 - Handle complex calculations with ease.
-- Clear and intuitive user interface.
-- Responsive design for both desktop and mobile devices.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
