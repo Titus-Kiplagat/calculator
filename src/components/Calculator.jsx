@@ -50,7 +50,7 @@ function Calculator() {
             <input
               type="text"
               id="display"
-              className="p-5 text-2xl text-right bg-gray-500 text-white focus:outline-none rounded-lg"
+              className="p-5 text-2xl text-right bg-gray-500 text-white focus:outline-none w-full rounded-lg"
               value={displayValue}
               placeholder="0"
               readOnly
