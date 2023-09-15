@@ -64,10 +64,8 @@ function QuoteDisplay() {
               {' '}
               by
               {' '}
-              <span>
-                &#34;
+              <span className="italic font-black decoration-from-font underline">
                 {author}
-                &#34;
               </span>
             </h3>
           </div>
