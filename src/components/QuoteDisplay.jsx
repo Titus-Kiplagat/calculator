@@ -51,7 +51,7 @@ function QuoteDisplay() {
   }
 
   return (
-    <>
+    <div className="h-5/6 flex justify-center items-center">
       {
         loading ? (
           <div className="mt-10">Loading...</div>
@@ -71,7 +71,7 @@ function QuoteDisplay() {
           </div>
         )
 }
-    </>
+    </div>
   );
 }
 
