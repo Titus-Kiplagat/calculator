@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Button from './Button';
 import calculate from '../logic/calculate';
-import QuoteDisplay from './QuoteDisplay';
 
 function Calculator() {
   const [calculatorState, setCalculatorState] = useState({
@@ -43,8 +42,8 @@ function Calculator() {
   ];
 
   return (
-    <div className="flex flex-col items-center h-screen">
-      <div className="bg-white p-6 rounded shadow-lg shadow-gray-400 mt-28">
+    <div className="flex flex-col items-center">
+      <div className="bg-white p-6 rounded shadow-lg shadow-gray-400">
         <div className="grid grid-cols-4 font-black text-xl">
           <form className="col-span-4">
             <input
@@ -66,7 +65,6 @@ function Calculator() {
           ))}
         </div>
       </div>
-      <QuoteDisplay />
     </div>
   );
 }
