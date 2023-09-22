@@ -49,8 +49,9 @@ function Calculator() {
             <input
               type="text"
               id="display"
+              data-testid="display"
               className="p-5 text-2xl text-right bg-gray-500 text-white focus:outline-none w-full rounded-lg"
-              value={displayValue}
+              value={displayValue.trim()}
               placeholder="0"
               readOnly
             />

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Button renders correctly 1`] = `
+<DocumentFragment>
+  <button
+    class="col-span-1 p-5 bg-gray-300 hover:bg-gray-400 border border-gray-200 rounded-lg"
+    type="button"
+  >
+    5
+  </button>
+</DocumentFragment>
+`;
