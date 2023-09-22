@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Navbar renders correctly 1`] = `
+<DocumentFragment>
+  <nav
+    class="sticky top-0 select-none bg-gray-500 lg:flex lg:items-stretch w-full"
+  >
+    <div
+      class="flex flex-no-shrink items-stretch h-12"
+    >
+      <a
+        class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark text-2xl font-black uppercase"
+        href="/"
+      >
+        Math Calculator
+      </a>
+    </div>
+    <div
+      class="lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow"
+    >
+      <div
+        class="lg:flex lg:items-stretch lg:justify-end ml-auto"
+      >
+        <a
+          class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark"
+          href="/home"
+        >
+          Home
+        </a>
+        <a
+          class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark"
+          href="/calculator"
+        >
+          Calculator
+        </a>
+        <a
+          class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark"
+          href="/quote"
+        >
+          Quote
+        </a>
+      </div>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
