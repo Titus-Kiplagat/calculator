@@ -7,9 +7,9 @@ const Navbar = () => (
     </div>
     <div className="lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow">
       <div className="flex justify-around lg:items-stretch  ml-auto">
-        <Link to="home" className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark">Home</Link>
-        <Link to="calculator" className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark">Calculator</Link>
-        <Link to="quote" className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark">Quote</Link>
+        <Link to="home" className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark focus:underline">Home</Link>
+        <Link to="calculator" className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark focus:underline">Calculator</Link>
+        <Link to="quote" className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark focus:underline">Quote</Link>
       </div>
     </div>
   </nav>
